@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+body {
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #040404;
+}
+.container {
+  width: 1140px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.title h1 {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.search-input {
+  color: #040404;
+  margin: 20px 0;
+  padding: 10px 15px;
+  letter-spacing: 0.1rem;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ebebe8;
+  background: #f4f8f8;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.card {
+  background-color: rgb(37, 37, 37);
+  border-radius: 20px;
+}
+.card .img_div {
+  padding: 15px;
+  width: 100%;
+  height: 60%;
+}
+.card .img_div img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+.description_div {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+select {
+  padding: 10px 15px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 240px;
+  height: 41px;
+  color: #5a5959;
+}
+select option {
+  padding: 10px 15px;
+  color: #5a5959;
+  font-size: 16px;
+}
